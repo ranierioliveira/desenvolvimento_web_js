@@ -1,0 +1,16 @@
+let dadosConfidenciais = null;
+const autenticado = true;
+
+if (autenticado){
+  dadosConfidenciais = "Ranieri Oliveira";
+}
+
+alert(dadosConfidenciais);
+
+if (typeof dadosConfidenciais === "string"){
+  tipoDados = "String"
+  alert(tipoDados)
+} else {
+  tipoDados = "Outro tipo de dados"
+}
+alert(tipoDados);
