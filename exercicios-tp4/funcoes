@@ -1,0 +1,13 @@
+function soma(a,b){
+  return a + b;
+}
+function multiplica(a, b){
+  return a * b;
+}
+function somaMultiplica(a, b , c){
+  let resultadoSoma = soma(a, b);
+  let resultadoTotal = multiplica(resultadoSoma, c);
+  return resultadoTotal;
+}
+let primeiroTeste = somaMultiplica(2, 2, 3);
+console.log(primeiroTeste);
