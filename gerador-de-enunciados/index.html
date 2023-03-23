@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de enunciados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Gerador de enunciados</h1></header>
+    <main>
+        <p>
+            <label for="itp">Digite o número do TP</label>
+            <input  name="tp" id="itp">
+        </p>
+        <p>
+            <label for="itp">Digite o número de exercícios</label>
+            <input name="exe" id="iexe">
+        </p>
+        <p><input type="button" value="Gerar Enunciado" onclick="gerarEnunciado()"></p>
+        <div>
+            <p id="mostrar"></p>
+        </div>
+        
+    </main>
+   
+    <script src="script.js"></script>
+    
+</body>
+</html>
