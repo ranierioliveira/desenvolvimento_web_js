@@ -13,7 +13,7 @@ function gerarEnunciado(){
             alert("Número do tp deve ser entre 1 e 10 e o número do exercício de 1 até 20!")
         } else {
             for(let c = 0; c <= exe; c++){
-                mostrar.innerHTML += `Exercício ${tp}.${c} - <br>`
+                mostrar.innerHTML += `Exercício ${tp}.${c} - <br> <br>`
             }
         }
     }
